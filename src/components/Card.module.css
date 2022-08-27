@@ -1,0 +1,108 @@
+/*Estilos definidos por henry:*/
+/*
+ .card {
+  margin: 20px;
+  width: 18rem;
+}
+
+.card-title {
+  margin-bottom: 15px;
+}
+
+#closeIcon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.card-body {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+} */
+
+/*Esto si son estilo definidos por mi:*/
+.card {
+  border-radius: 10px;
+  margin: 10px;
+  height: 175px;
+  width: 300px;
+}
+
+.b1 {
+  background: radial-gradient(circle, #eef4f5, #82cce9);
+}
+
+.b2 {
+  background: linear-gradient(-45deg, #f0eeee, #555454);
+}
+
+.first {
+  margin-top: 5px;
+  height: 50px;
+}
+
+.title {
+  margin-top: 10px;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  text-decoration: none;
+}
+
+.title:hover {
+  font-size: 33px;
+  text-decoration: none;
+  color: black;
+}
+
+.second {
+  justify-content: center;
+  align-items: center;
+}
+
+.data {
+  display: grid;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  grid-template-columns: 3fr;
+}
+
+.info {
+  display: flex;
+  grid-column: 0/2;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  margin: 5px;
+}
+
+.image {
+  grid-column: 2/3;
+  display: flex;
+  margin-right: 7px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background: none;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  position: relative;
+  float: right;
+  margin-right: 8px;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  padding: 0;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}

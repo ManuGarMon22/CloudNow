@@ -1,0 +1,24 @@
+.logo {
+  margin-left: 40px;
+  width: 150px;
+  height: 150px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #b9b4b4, #646261);
+}
+
+.about {
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  text-decoration: none;
+}
+
+.about:hover {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}

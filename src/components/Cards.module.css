@@ -1,0 +1,34 @@
+/*Estilo de Henry*/
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Mi estilo*/
+.conteiner {
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  margin: 0.25% 0.5%;
+  align-items: center;
+}
+
+.espere {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+body {
+  background: radial-gradient(circle, #15b9b9, #008b8b, #005555);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
